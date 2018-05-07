@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <FscToolPath>C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0</FscToolPath>
+    <FscToolExe>fsc.exe</FscToolExe>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="libs\FSharp.Data.SqlProvider.dll" Version="1.1.42" PublicKeyToken="b77a5c561934e089"/>    
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
